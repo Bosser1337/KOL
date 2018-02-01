@@ -1,0 +1,52 @@
+.header {
+  text-align: center;
+  grid-area: header;
+}
+
+.fixed-left {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  z-index: 1030;
+  padding-top: 70px;
+}
+
+.main {
+  text-align: center;
+  grid-area: main;
+}
+
+.sidebar {
+  grid-area: sidebar;
+}
+
+.Rules_List li {
+  margin: 30px 0;
+}
+
+.Information_List li {
+  margin: 30px 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0px;
+  margin: 30px auto;
+}
+
+table, th, td {
+  padding: 5px;
+  border: 1px solid black;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 10% 45% 45%;
+  grid-template-rows: auto;
+  grid-template-areas: "header header header" "sidebar main main" "footer footer footer";
+}
+
+body {
+  padding-top: 70px;
+}
